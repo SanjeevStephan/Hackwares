@@ -3,16 +3,15 @@
 Steganography is a vast topic. This tutorial only covers <b>how to hide files inside images,</b> which is the core concept of Steganography. <br/>
 
 ## Hide files inside images in Linux
-We can hide files inside images in different methods. Here I have given 5 methods. <br/>
-* Method 1 <br/>
-  This method doesn’t require any additional software. Just a basic Linux command line knowledge is enough.<br/>
-  I have one image file called <b>image.jpg</b> and a directory called <b>sk</b>. <br/>
-  Inside this directory, there is a file called <b>secret.txt</b> which has some confidential message. <br/>
-  This is the file that we are going to embed in the <b>image.jpg</b> file. You can place any number of files you want to hide inside this directory. <br/>
-  Then, I am going to compress the directory <b>sk</b> and save it as <b>secret.zip</b> to make it as single file. <br/>
-  Finally, I will concatenate the zip file (<b>secret.zip</b>) and image file (<b>image.jpg</b>) using cat command and save it as <b>HiddenFileInsideImage.jpg.</b>
+There are various methods to hide files inside images.But here I am going to show to very simple and easy method to get things done. <br/>
+=> Infact this method doesn’t require any additional software. Just a basic Linux command line knowledge is enough.<br/>
+   I have one image file called <b>image.jpg</b> and a directory called <b>sk</b>. <br/>
+   Inside this directory, there is a file called <b>secret.txt</b> which has some confidential message. <br/>
+   This is the file that we are going to embed in the <b>image.jpg</b> file. You can place any number of files you want to hide inside this directory. <br/>
+   Then, I am going to compress the directory <b>sk</b> and save it as <b>secret.zip</b> to make it as single file. <br/>
+   Finally, I will concatenate the zip file (<b>secret.zip</b>) and image file (<b>image.jpg</b>) using cat command and save it as <b>HiddenFileInsideImage.jpg.</b>
   
-  To put things more clearly
+  To put things more clearly,
   
   * image.jpg – A random image file.
   * sk – The directory that contains all secret files.
