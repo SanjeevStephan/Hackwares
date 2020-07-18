@@ -48,7 +48,7 @@ We can hide files inside images in different methods. Here I have given 5 method
       
      ![extract files](https://www.ostechnix.com/wp-content/uploads/2016/08/Unzip-image-file.png)
      
-     Or Simply Rename the File from <b>some_image_file.jpg</b> to <b>some_zip_file.zip</b>.
+     Or Simply Rename the File from <b>some_image_file.jpg</b> to <b>anyfiles.zip</b>.
      
      As you see in the above output, the directory sk that has secret files inside has been extracted. Now, go back to the folder and check the contents. 
      You will see all the files in there.
