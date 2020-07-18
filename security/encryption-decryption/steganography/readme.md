@@ -12,14 +12,15 @@ We can hide files inside images in different methods. Here I have given 5 method
   Then, I am going to compress the directory <b>sk</b> and save it as <b>secret.zip</b> to make it as single file. <br/>
   Finally, I will concatenate the zip file (<b>secret.zip</b>) and image file (<b>image.jpg</b>) using cat command and save it as <b>HiddenFileInsideImage.jpg.</b>
   
-  To put things more clearly,
-    * image.jpg – A random image file.
-    * sk – The directory that contains all secret files.
-    * secret.zip – Archive of sk directory.
-    * ostechnix.jpg – The output image file that contains both secret.zip and image.jpg.
+  To put things more clearly
+  
+  * image.jpg – A random image file.
+  * sk – The directory that contains all secret files.
+  * secret.zip – Archive of sk directory.
+  * ostechnix.jpg – The output image file that contains both secret.zip and image.jpg.
     
-    * Step 1 : Put the image file and the directory in a folder. I have put them both in Documents folder.
-    * Step 2: Move all files you want to hide inside the folder “sk”. 
+   * Step 1 : Put the image file and the directory in a folder. I have put them both in Documents folder.
+   * Step 2: Move all files you want to hide inside the folder “sk”. 
               Then, compress this folder and save it as “secret.zip”. 
               To compress the folder, just right click on it, and select compress. <br/>
   ![document folder image](https://www.ostechnix.com/wp-content/uploads/2019/08/Compress-secret-files-1.png)
