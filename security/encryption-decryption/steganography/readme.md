@@ -18,13 +18,13 @@ We can hide files inside images in different methods. Here I have given 5 method
   * sk – The directory that contains all secret files.
   * secret.zip – Archive of sk directory.
   * ostechnix.jpg – The output image file that contains both secret.zip and image.jpg.
-    
-   * Step 1 : Put the image file and the directory in a folder. I have put them both in Documents folder.
-   * Step 2: Move all files you want to hide inside the folder “sk”. 
+      
+* Step 1 : Put the image file and the directory in a folder. I have put them both in Documents folder.
+* Step 2: Move all files you want to hide inside the folder “sk”. 
               Then, compress this folder and save it as “secret.zip”. 
               To compress the folder, just right click on it, and select compress. <br/>
   ![document folder image](https://www.ostechnix.com/wp-content/uploads/2019/08/Compress-secret-files-1.png)
-    * Step 3: Next open the Terminal. Go to the location where you have stored the zip and image files (In our case it is Documents). <br/>
+* Step 3: Next open the Terminal. Go to the location where you have stored the zip and image files (In our case it is Documents). <br/>
               Finally, concatenate the secret.zip and test.jpg files, and save them as ostechnix.jpg using cat command. <br/>
               
               root@kali-linux:~$ cd Documents
