@@ -4,7 +4,7 @@ Steganography is a vast topic. This tutorial only covers <b>how to hide files in
 
 ## Hide files inside images in Linux
 There are various methods to hide files inside images.But here I am going to show to very simple and easy method to get things done. <br/>
-=> Infact this method doesn’t require any additional software. Just a basic Linux command line knowledge is enough.<br/>
+   Infact this method doesn’t require any additional software. Just a basic Linux command line knowledge is enough.<br/>
    I have one image file called <b>image.jpg</b> and a directory called <b>sk</b>. <br/>
    Inside this directory, there is a file called <b>secret.txt</b> which has some confidential message. <br/>
    This is the file that we are going to embed in the <b>image.jpg</b> file. You can place any number of files you want to hide inside this directory. <br/>
@@ -13,10 +13,10 @@ There are various methods to hide files inside images.But here I am going to sho
   
   To put things more clearly,
   
-  * image.jpg – A random image file.
-  * sk – The directory that contains all secret files.
-  * secret.zip – Archive of sk directory.
-  * ostechnix.jpg – The output image file that contains both secret.zip and image.jpg.
+> _image.jpg – A random image file. <br/>
+> sk – The directory that contains all secret files.  <br/>
+> secret.zip – Archive of sk directory.  <br/>
+> ostechnix.jpg – The output image file that contains both secret.zip and image.jpg._  <br/>
       
 * Step 1 : Put the image file and the directory in a folder. I have put them both in Documents folder.
 * Step 2: Move all files you want to hide inside the folder “sk”. 
