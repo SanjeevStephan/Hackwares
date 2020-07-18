@@ -1,0 +1,8 @@
+To Launch AndroidStudio from the launcher 
+Add an alias for 'android',to run  it from the terminal.
+Open the /root/.bashrc file and type in
+alias android="sh path/to/your/studio.sh"
+and save it.Restart the terminal 
+Now
+When you want to start Androidm,just type 'android'
+from the terminal
