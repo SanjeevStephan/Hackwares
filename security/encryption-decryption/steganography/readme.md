@@ -1,6 +1,6 @@
 # Steganography
-<b>Steganography</b> is a process of hiding a file, an image, a video, a text inside another file. <br/>
-Steganography is a vast topic. This tutorial only covers <b>how to hide files inside images,</b> which is the core concept of Steganography. <br/>
+_<b>Steganography</b> is a process of hiding a file, an image, a video, a text inside another file. <br/>
+Steganography is a vast topic. This tutorial only covers <b>how to hide files inside images,</b> which is the core concept of Steganography. <br/>_
 
 ## Hide files inside images in Linux
 There are various methods to hide files inside images.But here I am going to show to very simple and easy method to get things done. <br/>
@@ -28,7 +28,7 @@ There are various methods to hide files inside images.But here I am going to sho
               
               root@kali-linux:~$ cd Documents
               root@kali-linux:~$ cat image.jpg secret.zip > ostechnix.jpg
-         <br/>
+              
    ![command line image](https://www.ostechnix.com/wp-content/uploads/2016/08/Concatenate-files.png)
    
      That’s it. We have now hidden the confidential files inside ostechnix.jpg. It is the important file.  <br/>
